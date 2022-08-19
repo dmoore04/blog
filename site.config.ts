@@ -2,14 +2,14 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'ebe9df090768437f8592e476881b62a7',
+  rootNotionPageId: '1a22ca71955e4be49652eee4e1ba4a3b',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'dmoore.codes',
+  name: '__dmoore',
   domain: 'blog.dmoore.codes',
   author: 'Danny Moore',
 
@@ -18,8 +18,8 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: '__dmoore',
-  github: 'dmoore04-bullshit',
-  linkedin: 'dmoore04',
+  github: 'dmoore04',
+  linkedin: 'dannymoore04',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
@@ -27,7 +27,7 @@ export default siteConfig({
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
-  defaultPageCoverPosition: 0.5,
+  //   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
