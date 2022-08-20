@@ -15,6 +15,7 @@
 .notion-page {
   padding-bottom: calc(max(5vh, 32px)) !important;
   line-height: 1.65;
+  padding-top: 0 !important;
 }
 
 .index-page {
@@ -162,6 +163,7 @@
 }
 
 .notion-title {
+  z-index: 1;
   display: block;
   text-align: center;
 }
@@ -344,6 +346,7 @@
 
 /* if you don't want rounded page icon images, remove this */
 .notion-page-icon-hero.notion-page-icon-image {
+  display: none;
   border-radius: 50%;
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
 }
