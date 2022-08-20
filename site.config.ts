@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: '__dmoore',
-  domain: 'blog.dmoore.codes',
+  domain: 'dmoore.codes',
   author: 'Danny Moore',
 
   // open graph metadata (optional)
