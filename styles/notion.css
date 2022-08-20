@@ -155,6 +155,10 @@
   .notion-search-button {
     display: none !important;
   }
+
+  .notion-property-multi_select {
+    display: none !important;
+  }
 }
 
 .notion .notion-page-icon-cover {
